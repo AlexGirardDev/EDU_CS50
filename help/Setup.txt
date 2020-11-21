@@ -1,0 +1,5 @@
+I had to run these 2 commands to get make working with CS50 library
+export LDLIBS="-lcrypt -lcs50 -lm"
+
+ curl -s https://packagecloud.io/install/repositories/cs50/repo/script.deb.sh | sudo bash
+ sudo apt install libcs50
